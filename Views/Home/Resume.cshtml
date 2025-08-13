@@ -1,0 +1,70 @@
+﻿
+@{
+    ViewBag.Title = "Resume";
+}
+
+<!-- Particle background -->
+
+<div class="container-fluid resume-section">
+    <div id="particles-js"></div>
+    <div class="row justify-content-center" style="position: relative; z-index:99;">
+        <a class="btn btn-primary" href="~/Content/AyushResume.pdf" target="_blank" style="max-width: 250px;">
+            <i class="bi bi-download"></i> Download CV
+        </a>
+    </div>
+
+    <div class="row resume justify-content-center" style="z-index:99;">
+        <div class="pdf-wrapper" style="z-index:99;">
+            <iframe src="~/Content/AyushResume.pdf#toolbar=0&navpanes=0&scrollbar=0"
+                    class="responsive-pdf"
+                    style="border:none; z-index:99;">
+            </iframe>
+        </div>
+    </div>
+
+    <div class="row justify-content-center" style="position: relative; z-index:99;">
+        <a class="btn btn-primary" href="~/Content/AyushResume.pdf" target="_blank" style="max-width: 250px;">
+            <i class="bi bi-download"></i> Download CV
+        </a>
+    </div>
+</div>
+
+@section Scripts {
+    <!-- particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', '/Content/particles.json', () => {
+            console.log('particles.js loaded - about section');
+        });
+    </script>
+}
+
+<style>
+    .resume-section {
+        position: relative;
+        z-index: 1;
+    }
+    .resume{
+        z-index:99;
+    }
+    #particles-js {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+    .pdf-wrapper {
+        width: 100%;
+        max-width: 850px; /* Limit to desired width */
+        aspect-ratio: 850 / 1066; /* Keeps PDF proportionate (width:height) */
+        position: relative;
+    }
+
+        .pdf-wrapper iframe {
+            width: 100%;
+            height: 100%;
+           
+        }
+</style>

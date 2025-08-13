@@ -1,0 +1,21 @@
+﻿@model Portfolio.Models.Project
+
+<div class="card project-card-view">
+    <img src="@Model.ImgPath" class="card-img-top" alt="card-img" style="z-index:100 !important;"/>
+    <div class="card-body">
+        <h5 class="card-title">@Model.Title</h5>
+        <p class="card-text" style="text-align:justify;">
+            @Model.Description
+        </p>
+        <a href="@Model.GhLink" target="_blank" class="btn btn-primary">
+            <i class="bi bi-github"></i> @(Model.IsBlog ? "Blog" : "GitHub")
+        </a>
+        @if (!Model.IsBlog && !string.IsNullOrEmpty(Model.DemoLink))
+        {
+            <a href="@Model.DemoLink" target="_blank" class="btn btn-primary" style="margin-left:10px;">
+                <i class="bi bi-globe"></i> Demo
+            </a>
+        }
+    </div>
+</div>
+

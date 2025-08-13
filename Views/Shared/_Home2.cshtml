@@ -1,0 +1,86 @@
+﻿
+<div class="container-fluid home-about-section" id="about">
+    <div id="particles-js2"></div>
+    <div class="container">
+        <div class="row">
+            <!-- About text -->
+            <div class="col-md-8 home-about-description">
+                <h1 style="font-size: 2.6em;">
+                    LET ME <span class="purple"> INTRODUCE </span> MYSELF
+                </h1>
+                <p class="home-about-body">
+                    I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️
+                    <br /><br />
+                    I am fluent in classics like <b class="purple">C#, Javascript and SQL.</b>
+                    <br /><br />
+                    My field of Interest's are building new  projects on <b class="purple">Web Technologies like .NET and MERN Stack.</b>
+                    <br /><br />
+                    Whenever possible, I also apply my passion for developing products with
+                    <b class="purple">.NET (C# & .NET MVC)</b>
+                    and <b class="purple">MERN Stack</b> technologies like
+                    <b class="purple">MongoDB, Express.js, React.js, and Node.js</b>.
+                </p>
+            </div>
+
+            <!-- Avatar -->
+            <div class="col-md-4 myAvtar">
+                <img src="~/Content/Images/avatar.svg" class="img-fluid ms-5" alt="avatar" />
+            </div>
+        </div>
+
+        <!-- Social Links -->
+        <div class="row">
+            <div class="col-md-12 home-about-social">
+                <h1>FIND ME ON</h1>
+                <p>Feel free to <span class="purple">connect </span>with me</p>
+                <ul class="home-about-social-links list-inline">
+                    <li class="list-inline-item social-icons">
+                        <a href="https://github.com/imayushsri" target="_blank" class="icon-colour home-social-icons">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item social-icons">
+                        <a href="https://x.com/imayush_sri" target="_blank" class="icon-colour home-social-icons">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item social-icons">
+                        <a href="https://www.linkedin.com/in/imayushsri/" target="_blank" class="icon-colour home-social-icons">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item social-icons">
+                        <a href="https://www.instagram.com/imayushsri" target="_blank" class="icon-colour home-social-icons">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js2', '/Content/particles.json', function () {
+        });
+    </script>
+<style>
+    /* Make particles cover the background */
+    #particles-js2 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        top: 0;
+        left: 0;
+    }
+
+    .home-about-section {
+        position: relative;
+        z-index: 1;
+    }
+    .home-about-social-links{
+        z-index: 99 !important;
+    }
+</style>

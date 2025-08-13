@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Portfolio.Models.Project>
+
+@{
+    ViewBag.Title = "Projects";
+}
+
+
+<div class="container-fluid project-section">
+    <!-- Particle background -->
+    <div id="particles-js"></div>
+    <div class="container">
+        <h1 class="project-heading">
+            My Recent <strong class="purple">Works</strong>
+        </h1>
+        <p style="color:white;">
+            Here are a few projects I've worked on recently.
+        </p>
+
+        <div class="row justify-content-center custom-card" style="padding-bottom: 10px;">
+            @foreach (var project in Model)
+            {
+                <div class="col-md-4 project-card">
+                    @Html.Partial("_ProjectCard", project)
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', '/Content/particles.json', function () {
+            console.log('particles.js loaded - callback');
+        });
+    </script>
+}
+
+<style>
+    /* Make particles cover the background */
+    #particles-js {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        top: 0;
+        left: 0;
+    }
+    .custom-card, .project-card {
+        z-index: 99;
+    }
+    .project-section{
+        position: relative;
+    }
+    
+</style>
