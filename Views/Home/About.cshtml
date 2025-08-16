@@ -120,7 +120,7 @@
         <h1 class="project-heading pb-4">
             Days I <strong class="purple">Code</strong>
         </h1>
-        <div id="github-calendar" class="pb-5"></div>
+        <div id="github-calendar" class="pb-5" style="z-index:99;"></div>
     </div>
 </section>
 
@@ -223,6 +223,7 @@
     }
     .graph-before-activity-overview {
         border: none !important;
+        z-index:99;
     }
     .ContributionCalendar-day {
         height: 20px;
@@ -230,6 +231,7 @@
         border: 5px solid #0f0b19;
         border-radius: 18px;
         box-sizing: border-box;
+        z-index:99;
     }
     
     .ContributionCalendar-day[data-level='0'] {
@@ -262,6 +264,9 @@
 
     .tech-icons{
         z-index:99;
+    }
+    td, tr, thead, tbody{
+        z-index: 99;
     }
 
 </style>

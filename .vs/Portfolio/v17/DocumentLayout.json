@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\ayush\\Desktop\\Apprentice2025\\MVC\\Portfolio\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3B3AE783-32F0-4863-A09E-5A854A6FB3BE}|Portfolio.csproj|c:\\users\\ayush\\desktop\\apprentice2025\\mvc\\portfolio\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B3AE783-32F0-4863-A09E-5A854A6FB3BE}|Portfolio.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3B3AE783-32F0-4863-A09E-5A854A6FB3BE}|Portfolio.csproj|c:\\users\\ayush\\desktop\\apprentice2025\\mvc\\portfolio\\views\\home\\education.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3B3AE783-32F0-4863-A09E-5A854A6FB3BE}|Portfolio.csproj|solutionrelative:views\\home\\education.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B3AE783-32F0-4863-A09E-5A854A6FB3BE}|Portfolio.csproj|c:\\users\\ayush\\desktop\\apprentice2025\\mvc\\portfolio\\views\\shared\\_projectcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3B3AE783-32F0-4863-A09E-5A854A6FB3BE}|Portfolio.csproj|C:\\Users\\ayush\\Desktop\\Apprentice2025\\MVC\\Portfolio\\views\\shared\\_projectcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3B3AE783-32F0-4863-A09E-5A854A6FB3BE}|Portfolio.csproj|solutionrelative:views\\shared\\_projectcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B3AE783-32F0-4863-A09E-5A854A6FB3BE}|Portfolio.csproj|c:\\users\\ayush\\desktop\\apprentice2025\\mvc\\portfolio\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B3AE783-32F0-4863-A09E-5A854A6FB3BE}|Portfolio.csproj|C:\\Users\\ayush\\Desktop\\Apprentice2025\\MVC\\Portfolio\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B3AE783-32F0-4863-A09E-5A854A6FB3BE}|Portfolio.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -27,6 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\ayush\\Desktop\\Apprentice2025\\MVC\\Portfolio\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\ayush\\Desktop\\Apprentice2025\\MVC\\Portfolio\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Views\\Home\\About.cshtml",
+              "ViewState": "AgIAANYAAAAAAAAAAAAAAOEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-13T14:27:48.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Education.cshtml",
               "DocumentMoniker": "C:\\Users\\ayush\\Desktop\\Apprentice2025\\MVC\\Portfolio\\Views\\Home\\Education.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Education.cshtml",
@@ -39,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_ProjectCard.cshtml",
               "DocumentMoniker": "C:\\Users\\ayush\\Desktop\\Apprentice2025\\MVC\\Portfolio\\Views\\Shared\\_ProjectCard.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ProjectCard.cshtml",
@@ -47,12 +64,11 @@
               "RelativeToolTip": "Views\\Shared\\_ProjectCard.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-13T13:11:04.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T13:11:04.139Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\ayush\\Desktop\\Apprentice2025\\MVC\\Portfolio\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -60,8 +76,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAYwDsAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T12:46:41.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-13T12:46:41.635Z"
             }
           ]
         }
